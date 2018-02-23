@@ -3,12 +3,12 @@
 ### Thought
 For the first pass, we build all the new nodes and keep a map that maps old nodes to new nodes. In the second pass, we finish off the random pointer. A new node's random pointer can be found by following the corresponding old node's random pointer. The mapping for the old random node is the new random node.
 ```python
-# Definition for singly-linked list with a random pointer.
+<!-- # Definition for singly-linked list with a random pointer.
 # class RandomListNode(object):
 #     def __init__(self, x):
 #         self.label = x
 #         self.next = None
-#         self.random = None
+#         self.random = None -->
 
 class Solution(object):
     def copyRandomList(self, head):
