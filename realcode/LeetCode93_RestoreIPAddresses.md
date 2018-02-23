@@ -38,4 +38,5 @@ O(N^3^) time & space. We can think of the process as trying to find three places
 
 
 ### Notes
-although str.count function takes O(N) time, we can easily use an extra parameter to keep track of number of dots we've seen so far. Reducing complexity from O(N^4^) to O(N^3^)
+* although str.count function takes O(N) time, we can easily use an extra parameter to keep track of number of dots we've seen so far. 
+* reducing complexity from O(N^4^) to O(N^3^)
