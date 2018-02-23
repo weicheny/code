@@ -14,7 +14,7 @@ Keep a stack of node to explore. Explore the node popped out of stack and add it
  */
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
-	    if (root == null) return new ArrayList<>();
+	if (root == null) return new ArrayList<>();
         List<Integer> ret = new ArrayList<>();
         LinkedList <TreeNode> queue = new LinkedList<>();
         queue.add(root);
